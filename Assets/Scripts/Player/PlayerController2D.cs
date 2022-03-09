@@ -79,7 +79,7 @@ public class PlayerController2D : MonoBehaviour
             }
             else
                 state = MovementState.idle;
-            //sprite flip
+                
             if (Player.velocity.y > .3f &&IsGrounded() == false)
             {
                 state = MovementState.jump;
